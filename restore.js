@@ -15,11 +15,9 @@ if( process.argv.length >= 4 ){
       var body2 = fs.readFileSync( dumpfile, 'utf8' );
       var docs = JSON.parse( body2 );
       var cdb = cloudant.db.use( cloudant_db );
-      docs.forEach( function( doc ){
-//        console.log( doc );
-        cdb.insert( doc, doc._id, function( err3, body3, header3 ){
-          if( err3 ){ console.log( err3 ); }
-        });
+
+      cdb.bulk( docs, function( err3, body3, header3 ){
+        if( err3 ){ console.log( err3 ); } 
       });
     });
   });
