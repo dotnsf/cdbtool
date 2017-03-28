@@ -24,6 +24,8 @@
 
 - Run "npm install" to install required Node.js middlewares.
 
+    - This tool need "cloudant" middleware. See for details: https://github.com/cloudant-labs/cloudant-nano
+
 
 ## How to use
 
@@ -48,6 +50,7 @@
         - (dumpfilename): Local file name which was created in above dump command.
 
 - If you specify existing database as restore db, that database would be erased first, and restored as newly created one.
+
 
 ## Licensing
 
