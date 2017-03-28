@@ -16,7 +16,9 @@
 
 ## Install & Settings
 
-- Clone/Download this tool: $ git clone https://github.com/dotnsf/cdbtool
+- Clone/Download this tool: 
+
+    - $ git clone https://github.com/dotnsf/cdbtool
 
 - Edit settings.js with your Cloudant Username & Password.
 
