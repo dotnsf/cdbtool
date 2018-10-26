@@ -1,8 +1,8 @@
 {
     "name"         : "cloudant_dump_restore",
-    "version"      : "0.0.1",
+    "version"      : "0.0.2",
     "dependencies": {
-        "cloudant": "1.7.x",
+        "@cloudant/cloudant": "^2.0.1",
         "fs":"~0.0.1"
     },
     "repository": {},

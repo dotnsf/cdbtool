@@ -59,5 +59,5 @@ This code is licensed under MIT.
 
 ## Copyright
 
-2017 K.Kimura @ Juge.Me all rights reserved.
+2017-2018 K.Kimura @ Juge.Me all rights reserved.
 

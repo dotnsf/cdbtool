@@ -1,6 +1,6 @@
 //. dump.js
 
-var cloudantlib = require( 'cloudant' );
+var cloudantlib = require( '@cloudant/cloudant' );
 var fs = require( 'fs' );
 var settings = require( './settings' );
 
